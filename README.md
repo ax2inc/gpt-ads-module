@@ -4,7 +4,6 @@
 [![CircleCI](https://img.shields.io/circleci/project/github/ax2inc/gpt-ads-module.svg?style=flat-square)](https://circleci.com/gh/ax2inc/gpt-ads-module)
 [![Codecov](https://img.shields.io/codecov/c/github/ax2inc/gpt-ads-module.svg?style=flat-square)](https://codecov.io/gh/ax2inc/gpt-ads-module)
 [![Dependencies](https://david-dm.org/ax2inc/gpt-ads-module/status.svg?style=flat-square)](https://david-dm.org/ax2inc/gpt-ads-module)
-[![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)
 [![Code Style](https://badgen.net/badge/code%20style/airbnb/ff5a5f?icon=airbnb)](https://github.com/airbnb/javascript)
 
 > Goggle Publisher Tag ads integration for Nuxt
@@ -54,7 +53,7 @@ yarn add gpt-ads-module
 
 - **Type**: `Array|String`: required
 
-Your network code as found in Google Ad Manager > Admin > Global Settings.
+Your network code as found in **Google Ad Manager > Admin > Global Settings**.
 
 ### debug
 
