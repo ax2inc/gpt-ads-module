@@ -1,6 +1,6 @@
 # gpt-ads-module
-[![npm (scoped with tag)](https://img.shields.io/npm/v/gpt-ads-module/latest.svg?style=flat-square)](https://npmjs.com/package/gpt-ads-module)
-[![npm](https://img.shields.io/npm/dt/gpt-ads-module.svg?style=flat-square)](https://npmjs.com/package/gpt-ads-module)
+[![npm (scoped with tag)](https://img.shields.io/npm/v/@ax2/gpt-ads-module/latest.svg?style=flat-square)](https://npmjs.com/package/@ax2/gpt-ads-module)
+[![npm](https://img.shields.io/npm/dt/@ax2/gpt-ads-module.svg?style=flat-square)](https://npmjs.com/package/@ax2/gpt-ads-module)
 [![CircleCI](https://img.shields.io/circleci/project/github/ax2inc/gpt-ads-module.svg?style=flat-square)](https://circleci.com/gh/ax2inc/gpt-ads-module)
 [![Codecov](https://img.shields.io/codecov/c/github/ax2inc/gpt-ads-module.svg?style=flat-square)](https://codecov.io/gh/ax2inc/gpt-ads-module)
 [![Dependencies](https://david-dm.org/ax2inc/gpt-ads-module/status.svg?style=flat-square)](https://david-dm.org/ax2inc/gpt-ads-module)
@@ -19,18 +19,18 @@ Integrate Google Publisher Tag with your Nuxt project.
 - Install the module with your favorite package manager.
 
 ```sh
-yarn add gpt-ads-module
-# Or npm i gpt-ads-module
+yarn add @ax2/gpt-ads-module
+# Or npm i @ax2/gpt-ads-module
 ```
 
-- Add `gpt-ads-module` to `modules` section of `nuxt.config.js`.
+- Add `@ax2/gpt-ads-module` to `modules` section of `nuxt.config.js`.
 
 ```js
 // nuxt.config.js
 
 {
   modules: [
-    'gpt-ads-module',
+    '@ax2/gpt-ads-module',
  ],
 }
 ```

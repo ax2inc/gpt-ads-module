@@ -1,5 +1,5 @@
 {
-  "name": "gpt-ads-module",
+  "name": "@ax2/gpt-ads-module",
   "version": "0.1.0",
   "description": "Google Publisher Tag ads integration for Nuxt",
   "license": "MIT",
