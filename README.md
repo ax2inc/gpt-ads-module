@@ -89,6 +89,8 @@ The ad unit for a given ad as defined in Google Ad Manager > Inventory > Ad unit
 
 Default size for this ad, can be an array (`[<width>, <height>]`) or a string (`'<width>x<height>'`).
 
+To support multiple sizes, either pass an array of arrays (`[[<width>, <height>], [<width>, <height>]]`), or a string where dimensions are separated by a comma (`'<width>x<height>,<width>x<height>'`).
+
 #### sizeMapping
 
 - Type: `Array`
