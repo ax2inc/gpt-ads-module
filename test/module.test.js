@@ -44,6 +44,11 @@ describe('basic', () => {
     expect(node).not.toBeNull();
   });
 
+  test('Properly handles individualRefresh option', async () => {
+    const html = await get('/');
+    expect(html).toContain('googletag.pubads().disableInitialLoad();');
+  });
+
   test('Renders a div for the ad', async () => {
     const html = await get('/');
     const dom = getDom(html);

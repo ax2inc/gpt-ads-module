@@ -10,5 +10,6 @@ module.exports = {
   modules: ['@@'],
   gptAds: {
     networkCode: 6355419,
+    individualRefresh: true,
   },
 };
