@@ -69,6 +69,13 @@ Enable debug mode, when this is `true`, GPT console opens when the app loads.
 
 Name of the component that the module registers.
 
+### individualRefresh
+
+- **Type**: `Boolean`
+- **Default**: `false`
+
+If enabled, ads won't be fetched on page load but will be refreshed individually as they are mounted.
+
 ## Usage
 
 When the module is enabled, it registers a global Vue component that you can use to display ads in your app. By default, the component's name is **GptAd** but this can be changed via the `componentName` option.
