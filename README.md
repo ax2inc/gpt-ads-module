@@ -83,6 +83,13 @@ If enabled, ads won't be fetched on page load but will be refreshed individually
 
 Set to true to enable responsive mode for all ads slot. In responsive mode, ad slots listen to window resize events and refresh themselves if a different size mapping matches current window size.
 
+### collapseEmptyDivs
+
+- **Type**: `Boolean`
+- **Default**: `false`
+
+Set to true to have empty ad slots collapsed themselves, this can be overridden at slot-level with `collapseEmptyDiv` prop.
+
 ## Usage
 
 When the module is enabled, it registers a global Vue component that you can use to display ads in your app. By default, the component's name is **GptAd** but this can be changed via the `componentName` option.
@@ -126,6 +133,13 @@ Turn responsive mode on or off for specific ads, defaults to module's `responsiv
 - Default: `300`
 
 Debounce duration between each window resize handling.
+
+#### collapseEmptyDiv
+
+- Type: `Boolean`
+- Default: `null`
+
+Override `collapseEmptyDivs` option at the slot's level.
 
 ### Examples
 
