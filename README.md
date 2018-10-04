@@ -76,6 +76,13 @@ Name of the component that the module registers.
 
 If enabled, ads won't be fetched on page load but will be refreshed individually as they are mounted.
 
+### responsive
+
+- **Type**: `Boolean`
+- **Default**: `false`
+
+Set to true to enable responsive mode for all ads slot. In responsive mode, ad slots listen to window resize events and refresh themselves if a different size mapping matches current window size.
+
 ## Usage
 
 When the module is enabled, it registers a global Vue component that you can use to display ads in your app. By default, the component's name is **GptAd** but this can be changed via the `componentName` option.
@@ -101,9 +108,24 @@ To support multiple sizes, either pass an array of arrays (`[[<width>, <height>]
 #### sizeMapping
 
 - Type: `Array`
+- Default: `[]`
 
 Size mapping for this ad. Each item in the list is an array of its own, where the first item is the browser size, and the second is the expected ad's size(s) for the breakpoint.
 Sizes should either be arrays in the form `[<width>, <height>]` or strings in the form `'<width>x<height>'`.
+
+#### isResponsive
+
+- Type: `Boolean`
+- Default: `<%= options.responsive %>`
+
+Turn responsive mode on or off for specific ads, defaults to module's `responsive` option.
+
+#### windowResizeDebounce
+
+- Type: `Number`
+- Default: `300`
+
+Debounce duration between each window resize handling.
 
 ### Examples
 
