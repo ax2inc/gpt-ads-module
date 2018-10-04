@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.4.0"></a>
+# [0.4.0](https://github.com/ax2inc/gpt-ads-module/compare/v0.3.0...v0.4.0) (2018-10-04)
+
+
+### Bug Fixes
+
+* Prevent TypeError if mapping were to be undefined ([a8f4e53](https://github.com/ax2inc/gpt-ads-module/commit/a8f4e53))
+
+
+### Features
+
+* Add collapseEmptyDivs option & collapseEmptyDiv prop ([eaf8ee2](https://github.com/ax2inc/gpt-ads-module/commit/eaf8ee2))
+
+
+
 <a name="0.3.0"></a>
 # [0.3.0](https://github.com/ax2inc/gpt-ads-module/compare/v0.2.0...v0.3.0) (2018-10-04)
 
