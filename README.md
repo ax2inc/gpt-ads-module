@@ -6,7 +6,7 @@
 [![Dependencies](https://david-dm.org/ax2inc/gpt-ads-module/status.svg?style=flat-square)](https://david-dm.org/ax2inc/gpt-ads-module)
 [![Code Style](https://badgen.net/badge/code%20style/airbnb/ff5a5f?icon=airbnb)](https://github.com/airbnb/javascript)
 
-> Goggle Publisher Tag ads integration for Nuxt
+> Google Publisher Tag ads integration for Nuxt
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
