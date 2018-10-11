@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.5.1"></a>
+## [0.5.1](https://github.com/ax2inc/gpt-ads-module/compare/v0.5.0...v0.5.1) (2018-10-11)
+
+
+### Bug Fixes
+
+* Prevent error with size mappings that have a single size definition ([616b250](https://github.com/ax2inc/gpt-ads-module/commit/616b250))
+
+
+
 <a name="0.5.0"></a>
 # [0.5.0](https://github.com/ax2inc/gpt-ads-module/compare/v0.4.1...v0.5.0) (2018-10-11)
 
