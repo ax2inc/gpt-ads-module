@@ -81,14 +81,21 @@ If enabled, ads won't be fetched on page load but will be refreshed individually
 - **Type**: `Boolean`
 - **Default**: `false`
 
-Set to true to enable responsive mode for all ads slot. In responsive mode, ad slots listen to window resize events and refresh themselves if a different size mapping matches current window size.
+Set to `true` to enable responsive mode for all ads slot. In responsive mode, ad slots listen to window resize events and refresh themselves if a different size mapping matches current window size.
 
 ### collapseEmptyDivs
 
 - **Type**: `Boolean`
 - **Default**: `false`
 
-Set to true to have empty ad slots collapsed themselves, this can be overridden at slot-level with `collapseEmptyDiv` prop.
+Set to `true` to have empty ad slots collapsed themselves, this can be overridden at slot-level with `collapseEmptyDiv` prop.
+
+### ghostMode
+
+- **Type**: `Boolean`
+- **Default**: `false`
+
+Set to `true` to enable ghost mode. With ghost mode enabled, ad slots aren't displayed and are replaced by empty bordered divs of the size the ads would have if they were displayed. This is useful during development where you might not want to display real ads.
 
 ## Usage
 
