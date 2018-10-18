@@ -1,3 +1,5 @@
+>  The project has moved to [https://github.com/ax2inc/nuxt-modules/tree/master/packages/gpt-ads](https://github.com/ax2inc/nuxt-modules/tree/master/packages/gpt-ads)
+
 # gpt-ads-module
 [![npm (scoped with tag)](https://img.shields.io/npm/v/@ax2/gpt-ads-module/latest.svg?style=flat-square)](https://npmjs.com/package/@ax2/gpt-ads-module)
 [![npm](https://img.shields.io/npm/dt/@ax2/gpt-ads-module.svg?style=flat-square)](https://npmjs.com/package/@ax2/gpt-ads-module)
